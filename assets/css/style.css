@@ -42,9 +42,9 @@ header {
 	
 }
 body {
-	background-color: rgba(221,221,221,0.5);
-	/*background-image: url("../images/what-the-hex.png");
-	background-repeat: repeat;	*/
+	/* background-color: rgba(221,221,221,0.5); */
+	background-image: url("../images/what-the-hex.png");
+	background-repeat: repeat;	
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 
@@ -52,9 +52,9 @@ body {
 
 html {
 
-	background: url(../images/what-the-hex.png) top left repeat;
+	/* background: url(../images/what-the-hex.png) top left repeat;
 	
-	background-position: top left;
+	background-position: top left; */
 	
 	
 	}
@@ -266,28 +266,29 @@ textarea {
 	header {
 		width: 100%;
 	}
-
 	.mainContent  {
-		width: 654px;
+		width: 75%;
 		position: relative;
-		margin-left: 30px;
+		margin-left: 3%;
 	}
 
 	.MainAboutMe {
-		width: 640px;
+		width: 60%;
 	}
 	.indexPictureandText, p {
-		width: 650px;
+		width: 60%;
 	}
 
 	.headerlinks {
 		position: relative;
-		margin-right: -400px;
+		/* use to have this as margin-left: -400px; but the float right seems to work better */
+		
+		margin-left: 20%;
 
 	}	
 	.name {
 		position: relative;
-		margin-left: 30px;
+		margin-left: 3%;
 	}
 
 	footer {
@@ -300,11 +301,24 @@ textarea {
 	header {
 
 	}
-
-	.mainContent, .MainAboutMe {
-
+	body {
+		background-color: blue;
+	}
+	.mainContent {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%
 	}
 
+	.imgheadshot {
+		width: 250px;
+		height: auto;
+	}
+
+	.MainAboutMe{
+
+	}
 	.indexPictureandText, p {
 
 	}
@@ -321,5 +335,15 @@ textarea {
 }
 
 @media screen and (max-width: 640px) {
-	
+	.name {
+		width: 100%;
+	}
+	.imgheadshot {
+		width: 540px;
+	}
+	.headerlinks{
+		width: 100%;
+		text-align: center;
+		position: bottom;
+	}
 }
