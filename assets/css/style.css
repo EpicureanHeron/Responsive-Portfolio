@@ -263,9 +263,9 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-	.mainContent {
+	/* .mainContent {
 		width: 60%;
-	}
+	} */
 	p {
 		width: 50%;
 	}
