@@ -263,31 +263,60 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-	/* .mainContent {
-		width: 60%;
-	} */
-	/* p {
-		width: 50%;
+	header {
+		width: 100%;
 	}
-	header div {
-		width: 60%;
-	} */
-	
-	/* .MainAboutMe{
-		width: 60%;
-	} */
-  
-  div {
-	  width: 60%;
-  }
-}
+
+	.mainContent  {
+		width: 654px;
+		position: relative;
+		margin-left: 30px;
+	}
+
+	.MainAboutMe {
+		width: 640px;
+	}
+	.indexPictureandText, p {
+		width: 650px;
+	}
+
+	.headerlinks {
+		position: relative;
+		margin-right: -400px;
+
+	}	
+	.name {
+		position: relative;
+		margin-left: 30px;
+	}
+
+	footer {
+		width: 100%; 	
+	}
+
+	}
 
 @media screen and (max-width: 768px) {
-	.mainContent {
-		width: 40%;
+	header {
+
 	}
-	p {
-		width:40%;
+
+	.mainContent, .MainAboutMe {
+
+	}
+
+	.indexPictureandText, p {
+
+	}
+
+	.headerlinks {
+
+	}
+	.name {
+
+	}
+	footer {
+
 	}
 }
 
