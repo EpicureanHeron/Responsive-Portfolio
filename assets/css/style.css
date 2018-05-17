@@ -273,13 +273,22 @@ textarea {
 		width: 60%;
 	}
 	
-	.MainAboutMe{
+	/* .MainAboutMe{
 		width: 60%;
-	}
+	} */
+  
+  div {
+	  width: 60%;
   }
+}
 
 @media screen and (max-width: 768px) {
-	
+	.mainContent {
+		width: 40%;
+	}
+	p {
+		width:40%;
+	}
 }
 
 @media screen and (max-width: 640px) {
