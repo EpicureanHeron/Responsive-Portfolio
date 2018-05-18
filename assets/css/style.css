@@ -372,6 +372,12 @@ textarea {
 @media screen and (max-width: 640px) {
 	.name {
 		width: 100%;
+		margin: 0px;
+		text-align: left;
+		border-left: solid 15px #4aaaa5;
+		
+		
+		
 	}
 	container, .imgheadshot, .mainContent, .MainAboutMe {
 		width: 90%;
@@ -390,12 +396,26 @@ textarea {
 	}
 	
 	.headerlinks{
+	/*	width: 640px;*/
 		width: 100%;
 		text-align: center;
-		position: bottom;
+		position: absolute;
+		bottom: 0;
+		background-color: #ffffff;
+		padding-top: 3px;
+		padding-right: 250px;
+		
+	}
+	 p {
+		max-width: 430px;
 	}
 	
 	body {
 		background-color: green;
+	}
+	
+	header {
+		position: relative;
+		width: 100%;
 	}
 }
