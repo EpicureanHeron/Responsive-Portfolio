@@ -43,8 +43,15 @@ header {
 }
 body {
 	/* background-color: rgba(221,221,221,0.5); */
-	background-image: url("../images/what-the-hex.png");
-	background-repeat: repeat;	
+	/* background-image: url("../images/what-the-hex.png");
+	background-repeat: repeat;	 */
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: yellow;
+
+}
+
+p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 
@@ -184,11 +191,11 @@ textarea {
 	
 }
 
-.container {
+/* .container {
 	position: relative;
     text-align: left;
     color: white;
-}
+} */
 
 .firstpic {
 	position: absolute;
@@ -266,34 +273,49 @@ textarea {
 	header {
 		width: 100%;
 	}
+	body {
+		background-color: blue;
+			/* overflow used to get rid of stupid horizontal scroll bar */
+		overflow-x: hidden;
+	
+	}
+	.container {
+		max-width: 768px;
+	}
 	.mainContent  {
-		width: 75%;
+		max-width: 420px;
 		position: relative;
 		margin-left: 3%;
 	}
+	.headerlinks {
+		padding-right: 30px;
+	}
 
-	.MainAboutMe {
-		width: 60%;
+	 .MainAboutMe {
+		max-width: 420px;
 	}
 	.indexPictureandText, p {
-		width: 60%;
+		max-width: 420px;
 	}
-
-	.headerlinks {
+	footer {
+		width:100%;
+	}
+		
+	/* .headerlinks {
 		position: relative;
-		/* use to have this as margin-left: -400px; but the float right seems to work better */
+		/* use to have this as margin-left: -400px; but the float right seems to work better 
 		
 		margin-left: 20%;
 
-	}	
+	}	 */
 	.name {
 		position: relative;
 		margin-left: 3%;
 	}
 
-	footer {
+	/* footer {
 		width: 100%; 	
-	}
+	} */
 
 	}
 
@@ -302,7 +324,7 @@ textarea {
 
 	}
 	body {
-		background-color: blue;
+		background-color: red;
 	}
 	.mainContent {
 	
