@@ -320,6 +320,14 @@ textarea {
 		position: relative;
 		margin-left: 3%;
 	}
+	
+	textarea {
+		width: 400px;
+	}
+	
+	input {
+		width: 390px;
+	}
 
 	/* footer {
 		width: 100%; 	
@@ -351,18 +359,43 @@ textarea {
 		max-width: 580px;
 	}
 	
+	textarea {
+		width: 520px;
+	}
+	
+	input {
+		width: 470px;
+	}
+	
 }
 
 @media screen and (max-width: 640px) {
 	.name {
 		width: 100%;
 	}
-	.imgheadshot {
-		width: 540px;
+	container, .imgheadshot, .mainContent, .MainAboutMe {
+		width: 90%;
+		max-width: 440px;
 	}
+	/*.MainAboutMe {
+		width: 90%;
+		max-width: 430px;
+	} */
+	
+	textarea {
+		width: 400px;
+	}
+	input {
+		width: 350px;
+	}
+	
 	.headerlinks{
 		width: 100%;
 		text-align: center;
 		position: bottom;
+	}
+	
+	body {
+		background-color: green;
 	}
 }
