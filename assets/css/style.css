@@ -291,7 +291,7 @@ textarea {
 		padding-right: 30px;
 	}
 
-	 .MainAboutMe {
+	.MainAboutMe {
 		max-width: 420px;
 	}
 	.indexPictureandText, p {
@@ -299,6 +299,14 @@ textarea {
 	}
 	footer {
 		width:100%;
+		text-align: center;
+	}
+	
+	footer p {
+		margin-right: 384px; 
+	}
+	.name {
+		max-margin-left: 3%;
 	}
 		
 	/* .headerlinks {
@@ -320,9 +328,7 @@ textarea {
 	}
 
 @media screen and (max-width: 768px) {
-	header {
-
-	}
+	
 	body {
 		background-color: red;
 	}
@@ -330,30 +336,21 @@ textarea {
 	
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%
+	width: 95%%
 	}
 
 	.imgheadshot {
-		width: 250px;
+		width: 200px;
 		height: auto;
 	}
-
-	.MainAboutMe{
-
-	}
-	.indexPictureandText, p {
-
+	.container {
+		max-width: 600px;
 	}
 
-	.headerlinks {
-
+	.MainAboutMe, .indexPictureandText, p {
+		max-width: 580px;
 	}
-	.name {
-
-	}
-	footer {
-
-	}
+	
 }
 
 @media screen and (max-width: 640px) {
