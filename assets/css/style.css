@@ -197,8 +197,17 @@ textarea {
     color: white;
 } */
 
-.firstpic {
-	
+
+
+.work {
+
+  width:400px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.piclabel {
+	position: relative;
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -206,58 +215,11 @@ textarea {
 	text-align: center;
 	height: 35px;
 	padding-top: 10px;
-	
+	bottom: 100px;
+	left: 20px;
 }
 
-.secondpic {
 
-	font-size: 20px;
-	color: #ffffff;
-	background-color: #4aaaa5;
-	width: 350px;
-	text-align: center;
-	height: 35px;
-	padding-top: 10px;
-	
-}
-
-.thirdpic {
-
-	font-size: 20px;
-	color: #ffffff;
-	background-color: #4aaaa5;
-	width: 350px;
-	text-align: center;
-	height: 35px;
-	padding-top: 10px;
-	
-}
-
-.fourthpic {
-	
-	
-	font-size: 20px;
-	color: #ffffff;
-	background-color: #4aaaa5;
-	width: 350px;
-	text-align: center;
-	height: 35px;
-	padding-top: 10px;
-	
-}
-
-.fifthpic {
-	
-	
-	font-size: 20px;
-	color: #ffffff;
-	background-color: #4aaaa5;
-	width: 350px;
-	text-align: center;
-	height: 35px;
-	padding-top: 10px;
-	
-}
 
 @media screen and (max-width: 980px) {
 	header {
