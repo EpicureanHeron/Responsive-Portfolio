@@ -401,15 +401,28 @@ textarea {
 		width: 100%;
 	}
 
+	.work {
+		float:none;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 90%;
+		
+	}
+	.portfolioStyle {
+		width: 600px;
+	}
 	.imgportfolio {
 	
-		width: 350px;
+		width: 360px;
 		height: auto;
 		padding: 20px;
+		
 	}
-
+	.indexPictureandText {
+		width: 400px;
+	}
 	.piclabel {
-		width: 350px;
+		width: 360px;
 		left: 20px; 
 		font-size: 16px;	
 		height: 25px;
