@@ -88,11 +88,6 @@ html {
 	
 }
 
-.imgportfolio {
-	width: 350px;
-	height: auto;
-	padding: 20px;
-}
 
 .name {
 	float: left;
@@ -188,13 +183,18 @@ textarea {
 .portfolioStyle {
 	overflow:hidden;
 }
+.imgportfolio {
+	width: 350px;
+	height: auto;
+	/* padding: 20px; */
+}
 
 
 .work {
   float: left;
   max-width:400px;
   width: 45%;
-  margin: 20px 0 25px;
+  /* margin: 20px 0 25px; */
   overflow: auto;
 }
 
@@ -208,7 +208,7 @@ textarea {
 	height: 35px;
 	padding-top: 10px;
 	bottom: 100px;
-	left: 20px;
+	left: 0px;
 }
 
 
@@ -227,7 +227,7 @@ textarea {
 		max-width: 768px;
 	}
 	.mainContent  {
-		max-width: 420px;
+		max-width: 620px;
 		position: relative;
 		margin-left: 3%;
 	}
@@ -236,10 +236,10 @@ textarea {
 	}
 
 	.MainAboutMe {
-		max-width: 420px;
+		max-width: 600px;
 	}
 	.indexPictureandText, p {
-		max-width: 420px;
+		max-width: 600px;
 	}
 	footer {
 		width:100%;
@@ -249,9 +249,9 @@ textarea {
 	footer p {
 		margin-right: 384px; 
 	}
-	.name {
+	/* .name {
 		max-margin-left: 3%;
-	}
+	} */
 		
 	/* .headerlinks {
 		position: relative;
@@ -276,6 +276,17 @@ textarea {
 	/* footer {
 		width: 100%; 	
 	} */
+
+	.imgportfolio {
+		width: 250px;
+		height: auto;
+		padding: 20px;
+	}
+
+	.piclabel {
+		width: 250px;
+		left: 20px; 	
+	}
 
 	}
 
@@ -309,6 +320,20 @@ textarea {
 	
 	input {
 		width: 470px;
+	}
+
+	.imgportfolio {
+		width: 230px;
+		height: auto;
+		padding: 20px;
+	}
+
+	.piclabel {
+		width: 230px;
+		left: 20px; 
+		font-size: 16px;	
+		height: 25px;
+		padding-bottom: 5px;
 	}
 	
 }
@@ -374,5 +399,20 @@ textarea {
 	header {
 		position: relative;
 		width: 100%;
+	}
+
+	.imgportfolio {
+	
+		width: 350px;
+		height: auto;
+		padding: 20px;
+	}
+
+	.piclabel {
+		width: 350px;
+		left: 20px; 
+		font-size: 16px;	
+		height: 25px;
+		padding-bottom: 5px;
 	}
 }
