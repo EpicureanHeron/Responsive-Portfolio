@@ -198,9 +198,7 @@ textarea {
 } */
 
 .firstpic {
-	position: absolute;
-    top: 150px;
-    left: 20px;
+	
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -212,9 +210,7 @@ textarea {
 }
 
 .secondpic {
-	position: absolute;
-    top: 150px;
-    left: 415.5px;
+
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -226,9 +222,7 @@ textarea {
 }
 
 .thirdpic {
-	position: absolute;
-    top: 395px;
-    left: 20px;
+
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -241,9 +235,7 @@ textarea {
 
 .fourthpic {
 	
-	position: absolute;
-    top: 395px;
-    left: 415.5px;
+	
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -256,9 +248,7 @@ textarea {
 
 .fifthpic {
 	
-	position: absolute;
-    top: 640px;
-    left: 20px;
+	
 	font-size: 20px;
 	color: #ffffff;
 	background-color: #4aaaa5;
