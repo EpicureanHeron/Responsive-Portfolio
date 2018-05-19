@@ -178,18 +178,6 @@ textarea {
 	
 }
 
-.floatingtitle {
-	color: #ffffff;
-	background-color: #4aaaa5;
-	height: 10px;
-	font-size: 24px;
-	padding-top: 25px;
-	padding-right: 15px;
-	padding-left: 15px;
-	width: 200px;
-	z-index: 2;
-	
-}
 
 /* .container {
 	position: relative;
@@ -197,11 +185,15 @@ textarea {
     color: white;
 } */
 
+.portfolioStyle {
+	overflow:hidden;
+}
 
 
 .work {
-
-  width:400px;
+  float: left;
+  max-width:400px;
+  width: 45%;
   margin: 20px 0 25px;
   overflow: auto;
 }
